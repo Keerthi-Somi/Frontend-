@@ -1,4 +1,4 @@
-FROM nginx
+FROM python:3.12
 MAINTAINER keer
 LABEL description="let's build,test and deploy py code"
 WORKDIR /myapp
